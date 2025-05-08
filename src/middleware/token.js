@@ -2,7 +2,7 @@ import JWT from 'jsonwebtoken'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const secret = process.env.secret
+const secret = process.env.SECRET
 console.log(secret)
 
 export function createToken(admin){
